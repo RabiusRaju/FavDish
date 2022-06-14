@@ -1,4 +1,4 @@
-package com.tutorials.favdish
+package com.tutorials.favdish.view.activity
 
 import android.content.Intent
 import android.os.Build
@@ -10,7 +10,7 @@ import android.view.WindowManager
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.os.postDelayed
+import com.tutorials.favdish.R
 import com.tutorials.favdish.databinding.ActivitySplashBinding
 
 class SplashActivity : AppCompatActivity() {
@@ -46,7 +46,7 @@ class SplashActivity : AppCompatActivity() {
 
             override fun onAnimationEnd(animation: Animation?) {
                 Handler(Looper.getMainLooper()).postDelayed({
-                    startActivity(Intent(this@SplashActivity,MainActivity::class.java))
+                    startActivity(Intent(this@SplashActivity, MainActivity::class.java))
                     finish()
                 },1000)
             }

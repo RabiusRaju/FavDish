@@ -1,4 +1,4 @@
-package com.tutorials.favdish
+package com.tutorials.favdish.view.activity
 
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -7,6 +7,7 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.tutorials.favdish.R
 import com.tutorials.favdish.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
