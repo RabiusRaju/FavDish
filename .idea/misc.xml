@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1605" />
-        <entry key="app/src/main/res/layout/activity_add_update_dish.xml" value="0.34322916666666664" />
+        <entry key="app/src/main/res/layout/activity_add_update_dish.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23783783783783785" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/dialog_custom_image_selection.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_all_dishes.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.34322916666666664" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.34322916666666664" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.34322916666666664" />
